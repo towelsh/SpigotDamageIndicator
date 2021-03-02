@@ -20,10 +20,8 @@ public class onPlayerDamage implements Listener {
             Player damager = (Player) e.getDamager();
             damager.spigot().sendMessage(
                     ChatMessageType.ACTION_BAR,
-                    new TextComponent(ChatColor.RED+plr.getName()+ChatColor.DARK_AQUA+" has "+ChatColor.RED+"❤"+String.valueOf(Math.round(plr.getHealth()))));
-
-            // Old:
-            //damager.sendMessage(ChatColor.RED+plr.getName()+ChatColor.DARK_AQUA+" has "+ChatColor.RED+"❤"+String.valueOf(Math.round(plr.getHealth())));
+                    new TextComponent(ChatColor.RED+plr.getName()+ChatColor.DARK_AQUA+" has "+ChatColor.RED+"❤"+String.valueOf(Math.round(plr.getHealth())))
+            );
         }
     }
 }
