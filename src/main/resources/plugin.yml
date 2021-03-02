@@ -1,0 +1,14 @@
+name: DamageIndicator
+version: 1.0
+main: me.flappythebat.damageindicator.DamageIndicator
+api-version: 1.16
+prefix: DamageIndicator
+authors: [ FlappyTheBat ]
+description: Show other players health when you hit them!
+commands:
+  damageindicator:
+    description: Shows info about DamageIndicator
+    usage: /damageindicator
+  di:
+    description: Shows info about DamageIndicator
+    usage: /di
