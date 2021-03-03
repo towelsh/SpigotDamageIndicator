@@ -15,6 +15,13 @@ Once you have completed the installation, that's everything! :) The plugin shoul
   2. Drop the file into your server's plugins folder.
   3. Done!
 
+# How to build
+Requirements: `git`, `mvn`
+  1. Get the latest version with `git clone https://github.com/ImFlappyTheBat/SpigotDamageIndicator.git`
+  2. Enter the project directory (`cd SpigotDamageIndicator-master`)
+  3. Run `mvn package`
+  4. The .jar file should appear in the `target` directory
+
 # Contribution
 If you want to contribute (thanks if you do), open a pull request!
 
