@@ -22,7 +22,4 @@ Requirements: `git`, `mvn`
   3. Run `mvn package`
   4. The .jar file should appear in the `target` directory
 
-# Contribution
-If you want to contribute (thanks if you do), open a pull request!
-
 # Enjoy! :D
