@@ -18,10 +18,8 @@ public class DamageIndicatorCmd implements CommandExecutor {
         if (sender instanceof Player) {
             Player plr = (Player) sender;
             plr.sendMessage(ChatColor.AQUA+"This server is running "+ChatColor.GOLD+"DamageIndicator v1.0");
-            plr.sendMessage(ChatColor.GRAY+"Developed by FlappyTheBat");
         } else {
             logger.info(ChatColor.AQUA+"This server is running "+ChatColor.GOLD+"DamageIndicator v1.0");
-            logger.info(ChatColor.GRAY+"Developed by FlappyTheBat");
         }
 
         return true;
