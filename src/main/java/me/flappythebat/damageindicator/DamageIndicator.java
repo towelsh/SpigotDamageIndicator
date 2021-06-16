@@ -24,12 +24,12 @@ public final class DamageIndicator extends JavaPlugin {
             logger.info(ChatColor.BLUE + "Hooked into PlaceholderAPI!");
         }
 
-        logger.info("Started!");
+        logger.info(ChatColor.GREEN+"Started!");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        logger.info("Stopped. Bye!");
+        logger.info(ChatColor.GREEN+"Stopped. Bye!");
     }
 }
