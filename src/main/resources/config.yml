@@ -1,0 +1,5 @@
+# PlaceholderAPI placeholders are supported
+# Additional placeholders: %damager%, %damagedplayer%, %damagedplayerhealth%, %damagedplayerhearts%
+
+message: "&c%damagedplayer%&r is on &c❤%damagedplayerhearts%"
+actionbar: true
