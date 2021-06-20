@@ -33,7 +33,7 @@ public class PlayerDamage implements Listener {
             message = rawMessage.replaceAll("%attacker%", damager.getName())
                     .replaceAll("%damagedplayer%", plr.getName())
                     .replaceAll("%damagedplayerhealth%", String.valueOf(Math.round(plr.getHealth())))
-                    .replaceAll("%damagedplayerhealth%", String.valueOf(Math.round(plr.getHealth())/2));
+                    .replaceAll("%damagedplayerhearts%", String.valueOf(Math.round(plr.getHealth())/2));
 
             if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
                 finalMessage = PlaceholderAPI.setPlaceholders(damager, message);
