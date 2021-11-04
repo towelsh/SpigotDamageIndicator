@@ -3,7 +3,7 @@ Shows the player you are attacking's current HP, with a custom message which can
 in chat.
 Works on Spigot, Paper, and other varients of Spigot.
 
-**The only tested versions currently are 1.12 and 1.16, however in theory this plugin should work on all versions from 1.8. Please open an issue if something is not working in a version between 1.8 and 1.16.**
+**The only tested versions currently are 1.12, 1.16, and 1.17, however in theory this plugin should work on all versions from 1.8. Please open an issue if something is not working in a version between 1.8 and 1.17.**
 
 This plugin will send a player a actionbar message when they attack another player stating the players health.
 
