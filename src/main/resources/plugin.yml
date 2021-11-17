@@ -1,7 +1,7 @@
 name: DamageIndicator
 version: 1.1
 main: me.flappythebat.damageindicator.DamageIndicator
-api-version: 1.16
+api-version: 1.17
 prefix: DamageIndicator
 authors: [ FlappyTheBat ]
 description: Show other players health when you hit them!
