@@ -1,5 +1,5 @@
 name: DamageIndicator
-version: 1.1
+version: 1.1.1
 main: me.flappythebat.damageindicator.DamageIndicator
 api-version: 1.17
 prefix: DamageIndicator
