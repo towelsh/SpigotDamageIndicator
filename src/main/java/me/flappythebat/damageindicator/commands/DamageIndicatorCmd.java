@@ -1,5 +1,6 @@
 package me.flappythebat.damageindicator.commands;
 
+import me.flappythebat.damageindicator.DamageIndicator;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -18,14 +19,14 @@ public class DamageIndicatorCmd implements CommandExecutor {
 
         if (sender instanceof Player) {
             Player plr = (Player) sender;
-            plr.sendMessage(ChatColor.AQUA+"This server is running "+ChatColor.GOLD+"DamageIndicator v1.1");
+            plr.sendMessage(ChatColor.AQUA+"This server is running "+ChatColor.GOLD+"DamageIndicator v1.1.1");
             if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
                 plr.sendMessage(ChatColor.AQUA+"Hooked into PlaceholderAPI!");
             } else {
                 plr.sendMessage(ChatColor.DARK_AQUA+"PlaceholderAPI not was not found in your plugins.");
             }
         } else {
-            logger.info(ChatColor.AQUA+"This server is running "+ChatColor.GOLD+"DamageIndicator v1.1");
+            logger.info(ChatColor.AQUA+"This server is running "+ChatColor.GOLD+"DamageIndicator v1.1.1");
             if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
                 logger.info(ChatColor.AQUA+"Hooked into PlaceholderAPI!");
             } else {
