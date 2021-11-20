@@ -1,4 +1,6 @@
 # SpigotDamageIndicator
+[![CodeFactor](https://www.codefactor.io/repository/github/flappythebats/spigotdamageindicator/badge)](https://www.codefactor.io/repository/github/flappythebats/spigotdamageindicator)
+
 Shows the player you are attacking's current HP, with a custom message which can be shown in the actionbar or
 in chat.
 Works on Spigot, Paper, and other varients of Spigot.
